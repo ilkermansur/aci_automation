@@ -9,7 +9,7 @@ token = get_token()
 
 def vmm_domain(tenant_name,app_name,epg_name,vmm_domain_name):
     #print(get_token())
-    base_url = 'https://192.168.222.240/api/'
+    base_url = 'https://-ip-address/api/'
     url_prepend = f'node/mo/uni/tn-{tenant_name}/ap-{app_name}/epg-{epg_name}.json'
     url= base_url+url_prepend
     headers = {
