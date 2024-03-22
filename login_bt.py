@@ -2,13 +2,13 @@ import requests
 import json
  
 def get_token():  
-   url = "https://192.168.222.240/api/aaaLogin.json"
+   url = "https://-ip-address-/api/aaaLogin.json"
  
    payload = {
       "aaaUser": {
          "attributes": {
-            "name":"admin",
-            "pwd":"Aa123456"
+            "name":"username",
+            "pwd":"password"
          }
       }
    }
